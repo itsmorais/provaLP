@@ -23,7 +23,7 @@ public class ConnectionFactory {
 		String mydatabase = "provaLP";
 		String url = "jdbc:mysql://"+serverName+"/"+mydatabase;
 		String username = "root";
-		String password = "Desenv1243$";
+		String password = "";
 		connection = DriverManager.getConnection(url, username, password);
 		
 		// Testa conexão:
