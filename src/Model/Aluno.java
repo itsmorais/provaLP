@@ -7,14 +7,14 @@ public class Aluno {
     private float peso;
     private float altura;
     private String dataNascimento;
-    
+
     public Aluno(long cpf, String nome, float peso, float altura, String dataNascimento) {
-    this.cpf = cpf;
-    this.nome = nome;
-    this.peso = peso;
-    this.altura = altura;
-    this.dataNascimento = dataNascimento;
-}
+        this.cpf = cpf;
+        this.nome = nome;
+        this.peso = peso;
+        this.altura = altura;
+        this.dataNascimento = dataNascimento;
+    }
 
     public long getCpf() {
         return cpf;
@@ -56,6 +56,4 @@ public class Aluno {
         this.dataNascimento = dataNascimento;
     }
 
-    
 }
-
