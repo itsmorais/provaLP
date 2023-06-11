@@ -1,0 +1,11 @@
+create database provaLP;
+use provaLP;
+create table aluno(
+	aluno_id int not null AUTO_INCREMENT,
+    aluno_nome varchar(50) not null,
+    data_nascimento date not null,
+    peso float not null,
+    altura float not null,
+    cpf long not null,
+    primary key(aluno_id)
+);
